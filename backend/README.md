@@ -72,7 +72,25 @@ Resets the chart data to default values
 
 **Parameters**
 
-- `none`
+- `
+{
+    "series": [
+        {
+            "name": "Population infected",
+            "data": [
+                80,
+                70,
+                65,
+                50,
+                49,
+                30,
+                20,
+                1
+            ]
+        }
+    ]
+}
+`
 
 **Examples**
 
@@ -85,13 +103,22 @@ Returns
 {
  message: 'Data restarted',
  data: {
-         series: [
-           {
-             name: "Population infected",
-             data: [30, 40, 45, 50, 49, 60, 70, 91]
-           }
-         ]
-       }
+    "series": [
+        {
+            "name": "Population infected",
+            "data": [
+                80,
+                70,
+                65,
+                50,
+                49,
+                30,
+                20,
+                1
+            ]
+        }
+    ]
+   }
 }
 ```
 
