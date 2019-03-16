@@ -18,9 +18,17 @@
 }
 
 .App-body {
+  /*
   background-color: navajowhite;
   min-height: 100vh;
   padding-top: 20vh;
+  */
+  height:100%;
+  width:100%;
+  /*
+  padding-top: 20vh;
+  padding-left: 15%;
+  */
 }
 
 .App-link {
